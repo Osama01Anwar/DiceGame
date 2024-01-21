@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magical Dice Roll</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="player-container" id="wizard1">
+      <h2>Player 1 (Wizard)</h2>
+      <div class="dice-container" onclick="rollDice(1)">
+        <img id="dice1" src="1.png" alt="Dice" />
+      </div>
+      <div class="numbers" id="rollResult1">--</div>
+      <button class="roll-btn" onclick="rollDice(1)">Roll Dice</button>
+      <h2 class="total-score" id="totalScore1">Total Score: 0</h2>
+    </div>
+
+    <div class="player-container" id="wizard2">
+      <h2>Player 2 (Sorcerer)</h2>
+      <div class="dice-container" onclick="rollDice(2)">
+        <img id="dice2" src="1.png" alt="Dice" />
+      </div>
+      <div class="numbers" id="rollResult2">--</div>
+      <button class="roll-btn" onclick="rollDice(2)">Roll Dice</button>
+      <h2 class="total-score" id="totalScore2">Total Score: 0</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

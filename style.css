@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f8f8ff; /* GhostWhite */
+    font-family: "Arial", sans-serif;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .player-container {
+    background: #afeeee; /* PaleTurquoise */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .dice-container {
+    width: 350px;
+    height: 350px;
+    border: 2px solid #4682b4; /* SteelBlue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .dice img {
+    width: 50px; /* Set to 100% to fill the container */
+    height: 50px; /* Set to 100% to fill the container */
+  }
+  
+  .numbers {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #4682b4; /* SteelBlue */
+  }
+  
+  .roll-btn {
+    background: #87ceeb; /* SkyBlue */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .roll-btn:hover {
+    background: #6495ed; /* CornflowerBlue */
+  }
+  
+  .total-score {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #4682b4; /* SteelBlue */
+  }
+  
